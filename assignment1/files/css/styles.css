@@ -1,0 +1,199 @@
+/*
+Color Key:
+--------------
+	gold: #9D8235; (site customer color for fonts and mouse overs tesxt links)
+	Light Gray: #F8F8F8;
+	Blue: #07AAB0;
+*/	
+
+/* General Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background : #FFFFFF;
+	font-family: 'Helvetica', Arial, san-serif;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #9D8235;
+}
+
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+}
+.site-container {
+	width: 1400px;
+	height: 100%;
+	background: #FFFFFF;
+	margin: 0 auto;
+	padding: 15px 5px 0 5px;
+}
+
+/* Header Tags */
+
+.header {
+	margin-bottom: 215px;
+	padding-top: 20px;
+	border-top: 5px solid #9D8235;
+	width:100%;
+}
+
+.logo {
+	width:327px;
+	height: 176px;	
+	align: center;
+	margin-top: 15px auto;
+}
+.header-banner {
+	padding: 0px 5px 0 5px;
+	width: 95%;
+	
+}
+.navigation {
+	clear: both;
+	width:100%;
+	margin: 15px auto;
+	border-top: 3px solid #9D8235;
+}
+
+
+.content {
+	clear: both;
+	width: 100%;
+}
+
+.content:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo:hover {
+	background: #FFFFFF;
+	color: #07AAB0;
+}
+
+.nav-item {
+	font-family: Georgia, times new roman;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 5px;
+	padding: 15px;
+	text-transform: uppercase;
+	float:left;
+}
+
+
+
+
+
+.website {
+	background: #07AAB0;
+	color: #ffffff;
+	font-size: 10px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	float: right;
+	padding: 0 15px;
+	border-right: 3px solid #069196;
+	border-bottom: 3px solid #069196;
+}
+
+.website:hover {
+	background: #0CC3C9;
+}
+
+/* Content Styles  */
+
+.left-column,
+.right-column {
+	width: 45%;
+	float: left;
+}
+
+.left-column {
+	margin-right: 10%;
+}
+
+
+h2 {
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-top: 2px solid #333333;
+	border-bottom: 1px dotted #333333;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+	
+h3 {
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	margin: 25px 0 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
