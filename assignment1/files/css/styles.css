@@ -7,11 +7,7 @@ Color Key:
 */	
 
 /* General Styles */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 
 body{
 	background : #FFFFFF;
@@ -52,30 +48,45 @@ a:hover {
 /* Header Tags */
 
 .header {
-	margin-bottom: 215px;
+	margin-bottom: 15px;
 	padding-top: 20px;
 	border-top: 5px solid #9D8235;
 	width:100%;
 }
 
 .logo {
-	width:327px;
-	height: 176px;	
-	align: center;
-	margin-top: 15px auto;
-}
-.header-banner {
-	padding: 0px 5px 0 5px;
-	width: 95%;
-	
-}
-.navigation {
-	clear: both;
-	width:100%;
-	margin: 15px auto;
-	border-top: 3px solid #9D8235;
+	width:25%;
+	margin: 5px auto;
+	padding: 20px;
 }
 
+.header-banner {
+	padding: 0px 5px 0 5px;
+	width: 100%;
+}
+
+.banner {
+	width: 100%;
+	margin: 5px auto;
+}
+
+.navigation {
+	clear: both;
+	width:40%;
+	margin: 5px auto;
+	border-top: 1px solid #9D8235;
+}
+
+.nav-item {
+	font-family: Georgia, times new roman;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 5px 5px;
+	padding: 27px;
+	text-transform: uppercase;
+	float:left;
+}
 
 .content {
 	clear: both;
@@ -88,58 +99,75 @@ a:hover {
 	clear: both;
 }
 
-.logo:hover {
-	background: #FFFFFF;
-	color: #07AAB0;
+.outpost-menu {
+	clear:both;
+	width: 80%;
+	margin: 5px auto;
 }
 
-.nav-item {
-	font-family: Georgia, times new roman;
-	font-weight: bold;
-	text-align: center;
-	font-size: 12px;
-	line-height: 12px;
-	margin-bottom: 5px;
-	padding: 15px;
-	text-transform: uppercase;
-	float:left;
-}
-
-
-
-
-
-.website {
-	background: #07AAB0;
-	color: #ffffff;
-	font-size: 10px;
-	line-height: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	border-radius: 30px;
-	float: right;
-	padding: 0 15px;
-	border-right: 3px solid #069196;
-	border-bottom: 3px solid #069196;
-}
-
-.website:hover {
-	background: #0CC3C9;
-}
-
-/* Content Styles  */
-
-.left-column,
-.right-column {
+.column-left,
+.column-right {
 	width: 45%;
 	float: left;
 }
 
-.left-column {
-	margin-right: 10%;
+.column-left {
+	margin-right: 10px;
 }
 
+.menu-heading {
+	font-family: Georgia, times new roman;
+	font-style: italic;
+	text-align: center;
+	font-size: 28px;
+	line-height: 28px;
+	margin: 15px;
+	padding: 15px;
+	color: #9D8235;
+}
+
+.menu-item {
+  width: 45%;
+  height: 110px;
+  float: left;
+}
+
+.menu-item-title{
+	font-family: 'Helvetica', Arial, san-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #000000;
+	margin: 0;
+	padding: 0:
+}
+
+menu-item-price {
+	font-family: 'Helvetica', Arial, san-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-style: italic;
+	text-align: center;
+	color: #000000;
+}
+
+.footer {
+	margin-bottom: 15px;
+	padding-top: 20px;
+	border-top: 1px solid #9D8235;
+	width:100%;
+	background: #F0F0F0;
+}
+
+.logo-medium {
+	width: 176px;
+	height: 95px;
+	margin: 5px auto;
+	padding: 10px;
+}
+
+/* Content Styles  */
 
 h2 {
 	font-size: 14px;
