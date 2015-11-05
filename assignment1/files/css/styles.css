@@ -34,6 +34,11 @@ a:hover {
 	color: #9D8235;
 }
 
+a.active {
+	font-weight: bold;
+	color: #9D8235;	
+}
+
 .italic {
 	font-style: italic;
 }
