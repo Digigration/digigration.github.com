@@ -5,7 +5,10 @@ Color Key:
 	Light Gray: #F8F8F8;
 	Blue: #07AAB0;
 */	
-
+* {
+	margin: 0;
+	padding: 0;
+}
 /* General Styles */
 
 
@@ -52,10 +55,10 @@ a:hover {
 	padding-top: 20px;
 	border-top: 5px solid #9D8235;
 	width:100%;
+	text-align: center;
 }
 
 .logo {
-	width:25%;
 	margin: 5px auto;
 	padding: 20px;
 }
@@ -74,7 +77,7 @@ a:hover {
 	clear: both;
 	width:40%;
 	margin: 5px auto;
-	border-top: 1px solid #9D8235;
+	border-top: 1px solid rgba(157,130,53,.25);
 }
 
 .nav-item {
@@ -90,7 +93,8 @@ a:hover {
 
 .content {
 	clear: both;
-	width: 100%;
+	width: 920px;
+	margin: 0 auto;
 }
 
 .content:after {
@@ -101,18 +105,18 @@ a:hover {
 
 .outpost-menu {
 	clear:both;
-	width: 80%;
+	width: 100%;
 	margin: 5px auto;
 }
 
 .column-left,
 .column-right {
-	width: 45%;
+	width: 48%;
 	float: left;
 }
 
 .column-left {
-	margin-right: 10px;
+	margin-right: 4%;
 }
 
 .menu-heading {
@@ -128,8 +132,9 @@ a:hover {
 
 .menu-item {
   width: 45%;
-  height: 110px;
+  height: 80px;
   float: left;
+  margin: 5px;
 }
 
 .menu-item-title{
@@ -139,11 +144,11 @@ a:hover {
 	line-height: 16px;
 	text-align: center;
 	color: #000000;
-	margin: 0;
-	padding: 0:
+	margin: 10px;
+	padding: 10px:
 }
 
-menu-item-price {
+.menu-item-price {
 	font-family: 'Helvetica', Arial, san-serif;
 	font-size: 16px;
 	line-height: 16px;
@@ -153,11 +158,10 @@ menu-item-price {
 }
 
 .footer {
-	margin-bottom: 15px;
-	padding-top: 20px;
 	border-top: 1px solid #9D8235;
 	width:100%;
 	background: #F0F0F0;
+	text-align: center;
 }
 
 .logo-medium {
