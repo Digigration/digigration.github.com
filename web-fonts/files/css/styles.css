@@ -93,3 +93,33 @@ h2 {
   #right-column {
     margin-right: 0%;
   }
+
+/* Left Header Fonts with google fonts    */
+.left-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px; 
+}  
+
+#left-column p {
+  font-family: 'PT Serif', serif;
+  text-align: justify;
+}
+
+/* Left Header Fonts with google fonts    */
+.right-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 20px; 
+}  
+
+#right-column p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+
+
