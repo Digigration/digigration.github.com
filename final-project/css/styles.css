@@ -1,0 +1,133 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #e3c796;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+/* Site Divisions */
+
+#site-container {
+	width: 1400px;
+	height: 100%;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+
+/* Header Tags */
+
+#site-header {
+	margin-bottom: 15px;
+	padding-top: 20px;
+	width:100%;
+}
+
+.navigation {
+	float: right;
+	width: 50%;
+	margin: 10px;
+	padding: 15px;
+}
+
+.button-wrapper {
+  width: 100%;
+  margin: 100px;
+}
+.button {
+  width: 125px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;  
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+}
+
+.non-active {
+  color: #e3c796;
+  border-radius: 35px;
+  background: transparent;
+  border: 2px solid #e3c796;
+}
+.non-active:hover {
+  color: #FFFFFF;
+  background: #e3c796;
+}
+
+.active {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background: #e3c796;
+}
+.active:hover {
+  border-radius: 5px;
+  background: #e3c796;
+}
+
+/* Content */
+
+#site-banner {
+	clear: both;
+  	width: 100;
+ 	margin: 25px auto;
+}
+
+/* Content */
+
+#site-content {
+	clear: both;
+  	width: 100;
+  	margin: 25px auto;
+}
+
+/* Footer */
+
+#footer-content {
+  	clear: both;
+	width: 100;
+  	margin: 25px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
