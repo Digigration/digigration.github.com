@@ -11,5 +11,5 @@ Projects
 * [Slideshow](http://digigration.github.io/slideshow "Slideshow")
 * [Scroll Events](http://digigration.github.io/scrolling "Scroll Events")
 * [Lightbox](http://digigration.github.io/lightbox "Light Box") 
-* [Web Fonts)](http://digigration.github.io/web-fonts "Web Fonts") 
+* [Web Fonts](http://digigration.github.io/web-fonts "Web Fonts") 
 * [Assignment No.2 - Portfolio Website](http://digigration.github.io/assignment2 "Assignment No.2")
