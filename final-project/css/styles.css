@@ -26,7 +26,7 @@ a {
 /* Site Divisions */
 
 #site-container {
-	width: 1400px;
+	width: 1440px;
 	height: 100%;
 	background: #FFFFFF;
 	margin: 0 auto;
@@ -71,6 +71,7 @@ a {
   background: transparent;
   border: 2px solid #e3c796;
 }
+
 .non-active:hover {
   color: #FFFFFF;
   background: #e3c796;
