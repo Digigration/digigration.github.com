@@ -35,21 +35,27 @@ a {
 /* Header Tags */
 
 #site-header {
-	margin-bottom: 15px;
-	padding-top: 20px;
+	margin-bottom: 5px;
+	padding-top: 5px;
 	width:100%;
 }
 
+.logo {
+	float: left;
+	width: 40%;
+	margin: 5px;
+	padding: 5px;
+}
 .navigation {
 	float: right;
 	width: 50%;
-	margin: 10px;
-	padding: 15px;
+	margin: 5px;
+	padding: 5px;
 }
 
 .button-wrapper {
   width: 100%;
-  margin: 100px;
+  margin: 50px;
 }
 .button {
   width: 125px;
