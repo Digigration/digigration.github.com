@@ -26,7 +26,7 @@ a {
 /* Site Divisions */
 
 #site-container {
-	width: 1440px;
+	width: 980px;
 	height: 100%;
 	background: #FFFFFF;
 	margin: 0 auto;
@@ -55,17 +55,17 @@ a {
 
 .button-wrapper {
   width: 100%;
-  margin: 50px;
+  margin: 30px;
 }
 .button {
-  width: 125px;
-  height: 40px;
+  width: 100px;
+  height: 35px;
   display: block;
   float: left;
-  margin-right: 40px;
+  margin-right: 20px;
   text-align: center;
-  line-height: 40px;
-  font-size: 14px;  
+  line-height: 35px;
+  font-size: 12px;  
   font-weight: bold;
   text-transform: uppercase;
   transition: all 200ms ease-in-out;
@@ -73,7 +73,7 @@ a {
 
 .non-active {
   color: #e3c796;
-  border-radius: 35px;
+  border-radius: 25px;
   background: transparent;
   border: 2px solid #e3c796;
 }
