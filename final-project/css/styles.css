@@ -136,14 +136,14 @@ h2 {
 
 #site-content {
 	clear: both;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  	width: 100%;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
 }
-/* Content */
+
 .about-us {
   width: 95%;
-  margin: 25px auto;
+  margin: 10px auto;
 }
 
 .info {
@@ -179,13 +179,14 @@ h2 {
 /* Footer */
 
 #site-footer {
-  clear: both;
+	clear: both;
 	width: 100%;
-  margin: 50px auto 25px auto;
+	margin: 25px auto;
+	border-top: 1px solid rgba(0,0,0,.25);
 }
 
 .footer-nav-container {
-  width: 300px;
+  width: 325px;
   margin: 15px auto;
 }
 
