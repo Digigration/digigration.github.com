@@ -128,7 +128,7 @@ h2 {
 
 #site-banner {
 	clear: both;
-  width: 100%;
+  	width: 100%;
  	margin: 25px auto;
 }
 
@@ -139,6 +139,7 @@ h2 {
   	width: 100%;
   	margin-top: 10px;
   	margin-bottom: 10px;
+  	border-top: 1px solid rgba(0,0,0,.25);
 }
 
 .about-us {
@@ -193,8 +194,6 @@ h2 {
   background:transparent;
   margin: 0 auto;
   padding: 0px 0px;
-  border-top: 1px solid rgba(0,0,0,.25);
-  border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
 #section-1, #section-2, #section-3, #section-4 {

@@ -53,6 +53,7 @@
 .flexslider .slides img {
   width: 100%;
   display: block;
+  border-radius: 15px;
 }
 .flexslider .slides:after {
   content: "\0020";
