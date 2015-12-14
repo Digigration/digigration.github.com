@@ -160,8 +160,24 @@ h2 {
   margin: 5px;
   float: left;
   border: 2px solid #e3c796;
-  border-radius: 35px;
+  border-radius: 20px;
 }
+
+.info-heading {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #222222;
+  display: inline-block;
+  text-align: center;
+  margin-top: -2px;
+  width:100%;
+  background-color:#e3c796;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 #content {
   width: 975px;
   background:transparent;
