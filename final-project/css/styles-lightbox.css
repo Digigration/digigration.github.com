@@ -1,5 +1,8 @@
 /* General Styles */
 
+* {
+  margin: 0;
+}
 
 .italic {
   font-style: italic;
@@ -9,7 +12,25 @@
   font-weight: bold;
 }
 
+
+/* Header */
+
+#section {
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  border-top: 1px solid rgba(0,0,0,.25);
+}
+
+
+
 /* Content */
+
+#content {
+  width: 980px;
+  margin: 100px auto 0px auto;
+}
 
 .project {
   width: 220px;
