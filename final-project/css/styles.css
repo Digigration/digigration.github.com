@@ -65,6 +65,7 @@ h2 {
 /* Header Tags */
 
 #site-header {
+  clear: both;
 	margin-bottom: 5px;
 	padding-top: 5px;
 	width:100%;
@@ -128,14 +129,14 @@ h2 {
 
 #site-banner {
 	clear: both;
-  	width: 100%;
+  width: 100%;
  	margin: 25px auto;
 }
 
 /* Content */
 
 #site-content {
-	clear: both;
+	  clear: both;
   	width: 100%;
   	margin-top: 10px;
   	margin-bottom: 10px;
@@ -197,8 +198,12 @@ h2 {
 }
 
 #section-1, #section-2, #section-3, #section-4 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 400px;
+  width: 100%;
+  margin: 5px auto;
+  border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
 /* Footer */

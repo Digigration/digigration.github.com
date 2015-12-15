@@ -4,18 +4,19 @@
     <title>RnR Remodelers | Home Remodeling | Kitchens | Baths | Home Repair | In the Greater Philadelphia Region</title>
 	  <link type="text/css" href="css/flexslider.css" rel="stylesheet" />
     <link type="text/css" href="css/styles.css" rel="stylesheet" />
+
   </head>
 
   <body>
   	<div id='site-container'>
-    	<div id='site-header'>
+    	<div id='site-header' data-scroll-index='0'>
     		<div class="logo">
     			<img src="images/logo/index_logo01.png" height="100px"/>
     		</div>
  	      	<div class="navigation">
    				 <div class="button-wrapper">
-   		     		<a class="button active" href="#">Home</a>
-   		     		<a class="button non-active" href="#">About Us</a>
+   		     		<a class="button active" data-scroll-nav='0' >Home</a>
+                <a class="button non-active" data-scroll-nav='1' >About Us</a>
    		     		<a class="button non-active" href="portfolio.html">Portfolio</a>
    		     		<a class="button non-active" href="contact-us.html">Contact Us</a>
     			 </div>
@@ -35,7 +36,7 @@
       			</div>
     		</div>
     	</div>
-    	<div id="site-content">
+    	<div id="site-content" data-scroll-index='1'>
         <div class="about-us">
          <ul class="info">
             <li class="info-box">
@@ -69,6 +70,8 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
    <script src="js/jquery.flexslider-min.js"></script> 
    <script src="js/main.js"></script> 
+   <script src='js/scrollIt.min.js'></script>
+   <script src='js/utilities-scrollit.js'></script>
     
   </body>
 </html>
