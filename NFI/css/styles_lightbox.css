@@ -1,0 +1,41 @@
+/* General Styles */
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Content */
+
+.project {
+  width: 180px;
+  height: 145px;
+  background: #cccccc;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 15px;
+}
+
+  .project img {
+    height: 100%;
+  }
+
+  .project:hover {
+    opacity: .65;
+  }
+
+  .last {
+    margin-right: 0px;
+  }
