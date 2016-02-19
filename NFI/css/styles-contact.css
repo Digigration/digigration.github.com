@@ -59,54 +59,59 @@
 }
 
 #form-main{
-	width:60%;
-	height:500px;
-	float: left;
-	padding-top:10px;
+	width: 100%;
+    margin: auto auto;
 }
 
 #form-div {
-	background-color: rgba(255, 255, 255, 0.5);
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 600px;
-	float: left;
-	left: 50%;
-	position: absolute;
-	margin-left: -260px;
-	border-radius: 20px;
-	border: red solid 4px;
+	width: 30%;
+	margin: 15% auto;
 }
 
 .feedback-input {
-	opacity:0.9;
-	color:#000;
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  	font-weight:550;
-	font-size: 18px;
-	border-radius: 0;
-	line-height: 22px;
-	background-color: #fbfbfb;
-  	border: 3px solid #fbfbfb;
-	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
-	width:100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-	border-radius: 10px;
+	opacity: 0.65;
+    color: #FFFFFF;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 3px 10px 5px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 1px;
 }
 
 .feedback-input:focus{
+	opacity: 0.65;
+    color: #FFFFFF;
+	box-shadow: 0;
+	border: 3px solid #FFFFFF;
+	outline: none;
+  	padding: 10px 3px 13px 5px;
+}
+
+.feedback-password {
+	opacity: 0.65;
+    color: #FFFFFF;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 3px 13px 5px;
+    margin-bottom: 13px;
+    width: 100%;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.feedback-password:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #3498db;
+	border: 3px solid #FFFFFF;
 	color: #3498db;
 	outline: none;
-  	padding: 13px 13px 13px 54px;
+  	padding: 10px 3px 13px 5px;
 }
 
 .focused{
@@ -114,7 +119,7 @@
 	border:#30aed6 solid 3px;
 }
 
-/* Icons ---------------------------------- */
+/* Icons ----------------------------------
 #name{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;
@@ -122,35 +127,14 @@
 	background-repeat: no-repeat;
 }
 
-#name:focus{
+#email:focus{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
-}
 
-#email{
-	background-image: url(https://ftrsecure.com/sites/default/files/product-icons/mobile-security-pro.png);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#email:focus{
-	background-image: url(https://ftrsecure.com/sites/default/files/product-icons/mobile-security-pro.png);
-	background-size: 30px 30px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
+ */
 textarea {
 	width: 100%;
 	height: 150px;
@@ -166,16 +150,17 @@ input:focus, textarea:focus {
 	font-family: 'Montserrat', Helvetica, Arial,  sans-serif;
 	float:left;
 	width: 100%;
-	border: #fbfbfb solid 4px;
+	opacity: 0.85;
+    color: #FFFFFF;
+	border: #fbfbfb solid 2px;
 	cursor:pointer;
-	background-color: #134293;
 	color:white;
 	font-size:24px;
-	padding-top:22px;
-	padding-bottom:22px;
+	padding-top:10px;
+	padding-bottom:10px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
-	border-radius: 10px;
+	border-radius: 5px;
 	transition: all 0.3s;
 }
 
@@ -186,26 +171,11 @@ input:focus, textarea:focus {
 	
 .submit:hover {
 	color: #FFFFFF;
+	line-height: 24px;
+    padding: 10px 3px 10px 5px;
 }
 	
-.ease {
-  border-top:3px #3c3c3c solid;
-	width: 0px;
-	height: 76px;
-	background-color: #FFFFFF;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
-	border-radius: 10px;
-}
 
-.submit:hover .ease{
-  width:100%;
-  background-color:#FFFFFF;
-  
-}
 
 @media only screen and (max-width: 580px) {
 	#form-div{
