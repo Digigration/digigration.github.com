@@ -24,7 +24,7 @@
 
 .contact-info-box {
   background-color: #FFFFFF;
-  width: 200px;
+  width: 175px;
   height: 460px;
   display: block;
   margin: 10px;
@@ -75,7 +75,7 @@
     font-size: 18px;
     line-height: 22px;
     padding: 10px 3px 10px 5px;
-    width: 100%;
+    width: 75%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 1px solid #FFFFFF;
@@ -99,7 +99,7 @@
     line-height: 22px;
     padding: 10px 3px 13px 5px;
     margin-bottom: 13px;
-    width: 100%;
+    width: 75%;
 
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -149,7 +149,7 @@ input:focus, textarea:focus {
 #button-blue{
 	font-family: 'Montserrat', Helvetica, Arial,  sans-serif;
 	float:left;
-	width: 100%;
+	width: 75%;
 	opacity: 0.85;
     color: #FFFFFF;
 	border: #fbfbfb solid 2px;
